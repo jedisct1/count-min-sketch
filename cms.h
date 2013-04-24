@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-#include <sodium/crypto_shorthash_siphash24.h>
+#include <sodium.h>
 
 typedef unsigned long CMSCount;
 #define CMSCOUNT_MAX ULONG_MAX
